@@ -1,0 +1,182 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
+/* style navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{ 
+    width: auto; 
+    height: 80px;
+    padding-left: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.logo h1 span{
+    color: crimson;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 12px;
+    padding-right: 80px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+/* style navbar */
+
+/* style slider */
+.carousel-item {
+    height: 700px;
+}
+
+.carousel-item .teks_vacation{
+    margin-top: -400px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.carousel-item .teks_food{
+    margin-top: -400px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.carousel-item .teks_game{
+    margin-top: -400px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.carousel-item button{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    margin-top: 60px;
+} 
+/* style slider */
+
+/* style kartu */
+.anggota{
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 2px ;
+    padding-top: 50px;
+    padding-bottom: 30vh;
+    background-image: linear-gradient(to right, aqua, blue, purple);
+}
+
+.anggota h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 30px;
+    background-image: linear-gradient(to right, rgb(243, 203, 129), rgb(240, 240, 117), rgb(161, 147, 67));
+    box-shadow: 0px 0px 20px 0px lightslategray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    /* margin-bottom: 20vh;  */
+    gap: 80px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, .7);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+.card img {
+    border-radius: 50%;
+}
+.card h3 {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+/* style card */
+
+/* style footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #111;
+    width: 100%;
+    padding: 50px;
+}
+
+.footer h4{
+    color: #fff;
+    font-family: "open-sans";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.social-links a{
+    color: #fff;
+}
+
+.social-links a i{
+    background-color: rgba(217, 159, 50, 0.2);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.social-links a:hover{
+    color: #111;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
